@@ -1,4 +1,3 @@
-import { Key } from "react";
 import Item from "./Item";
 
 export default function WorkItem({
@@ -23,15 +22,35 @@ export default function WorkItem({
             <div className="flex flex-col pl-2 gap-4">
                 {workObject.map((wo, idx) => (
                     <div key={idx}>
-                        <Item 
-                            title={wo.title} 
-                            description={wo.description} 
-                            duration={wo.duration} 
-                            stack={wo.stack} 
-                            github={wo.github}
-                            link={wo.link}
-                            live={wo.live}
-                        />
+                        {wo.link ? (
+                            <a href={`/blogs/${wo.link}`}>
+                                <Item 
+                                    title={wo.title} 
+                                    description={wo.description} 
+                                    duration={wo.duration} 
+                                    stack={wo.stack} 
+                                    github={wo.github}
+                                />
+                            </a>
+                        ) : wo.live ? (
+                            <a href={wo.live} target="_blank" rel="noopener noreferrer">
+                                <Item 
+                                    title={wo.title} 
+                                    description={wo.description} 
+                                    duration={wo.duration} 
+                                    stack={wo.stack} 
+                                    github={wo.github}
+                                />
+                            </a>
+                        ) : (
+                            <Item 
+                                title={wo.title} 
+                                description={wo.description} 
+                                duration={wo.duration} 
+                                stack={wo.stack} 
+                                github={wo.github}
+                            />
+                        )}
                     </div>
                 ))}
             </div>

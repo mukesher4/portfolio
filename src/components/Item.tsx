@@ -1,6 +1,6 @@
 import { JSX } from 'react';
 import { SiExpress, SiMongodb, SiNextdotjs, SiPostgresql, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 
 type TechIcon = {
     [key: string]: JSX.Element
@@ -22,18 +22,14 @@ export default function Item({
     description,
     stack,
     github,
-    link,
-    live,
 }: {
     title: string;
     duration: string;
     description?: string[];
     stack?: string[];
     github?: string;
-    link?: string;
-    live?: string;
 }) {
-    const content = (
+    return (
         <div className="border-2 border-transparent hover:border-neutral-600 hover:border-opacity-30 p-2">
             <div>
                 <div className="w-full flex justify-between items-start">
@@ -69,12 +65,4 @@ export default function Item({
             </div>
         </div>
     );
-
-    if (link) {
-        return <a href={`/blogs/${link}`}>{content}</a>;
-    }
-    if (live) {
-        return <a href={live} target="_blank" rel="noopener noreferrer">{content}</a>;
-    }
-    return content;
 }

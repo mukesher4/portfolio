@@ -1,3 +1,4 @@
+import { X, GH, LINKEDIN, DISCORD, EMAIL } from '@/utils/user';
 import { FaDiscord, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6';
 
@@ -19,27 +20,27 @@ export default function ContactMe({
         <div className="font-bold pb-6">{'contact me'}</div>
             <div className="pl-2 flex flex-row gap-4">
                 {x ? (
-                    <a href={process.env.X}>
+                    <a href={X}>
                         <FaXTwitter />
                     </a>
                 ) : null}
                 {github ? (
-                <a href={process.env.GH}>
+                <a href={GH}>
                         <FaGithub />
                     </a>
                 ) : null}
                 {linkedin ? (
-                    <a href={process.env.LINKEDIN}>
+                    <a href={LINKEDIN}>
                         <FaLinkedin />
                     </a>
                 ) : null}
                 {email ? (
-                    <a href={process.env.EMAIL}>
+                    <a href={EMAIL}>
                         <FaEnvelope />
                     </a>
                 ) : null}
                 {discord ? (
-                    <a href={process.env.DISCORD}>
+                    <a href={DISCORD}>
                         <FaDiscord />
                     </a>
                 ) : null}
