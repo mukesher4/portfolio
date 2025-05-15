@@ -10,7 +10,7 @@ export const LINKEDIN=""
 export const work = [
     {
       title: 'SWE Intern | @infysec',
-      duration: 'May, 2025 - Present',
+      duration: 'March, 2025 - Present',
       description: [
         'Built a full-stack application — a VM-based \'Hack The Box\'-type learning platform with role-based access control for admins and users.',
         'Implemented auto-deployment of containerized VMs for each lab session on instance start.'
