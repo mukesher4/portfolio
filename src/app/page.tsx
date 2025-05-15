@@ -22,7 +22,7 @@ export default async function Home() {
         'Built a full-stack application — a VM-based \'Hack The Box\'-type learning platform with role-based access control for admins and users.',
         'Implemented auto-deployment of containerized VMs for each lab session on instance start.'
       ],
-      stack: ['nextjs', 'postgresql', 'tailwindcss']
+      stack: ['nextjs', 'postgresql', 'express', 'tailwindcss']
     },
   ]
   const projects = [
@@ -33,7 +33,7 @@ export default async function Home() {
         'End-to-End encrypted simple, no-auth temporary file sharing application',
         'Encrypted files get stored in Azure Blob Storage'
       ],
-      stack: ['nextjs', 'mongodb', 'tailwindcss'],
+      stack: ['nextjs', 'mongodb', 'express', 'tailwindcss'],
       github: 'https://github.com/mukesher4/drop-share',
       live: 'https://dropshare-ten.vercel.app/'
     },
@@ -41,11 +41,21 @@ export default async function Home() {
       title: 'ConIntact',
       duration: '2025',
       description: [
-        'Encrypted files get stored in Azure Blob Storage'
+        'Collaborative Contact Management Application built using MERN stack'
       ],
-      stack: ['react', 'mongodb', 'tailwindcss'],
+      stack: ['react', 'mongodb', 'express', 'tailwindcss'],
       github: 'https://github.com/mukesher4/conintact-frontend',
       live: 'https://conintact-frontend.vercel.app/'
+    }
+  ]
+
+  const education = [
+    {
+      title: 'Amrita Vishwa Vidyapeetham, Coimbatore',
+      duration: '2022 - Present (Expected: 2026)',
+      description: [
+        'B.Tech in CSE (CYS)'
+      ]
     }
   ]
 
@@ -90,6 +100,8 @@ export default async function Home() {
           <WorkItem workTitle="project" workObject={projects} />
 
           <WorkItem workTitle="blogs" workObject={blogs} />
+
+          <WorkItem workTitle="education" workObject={education} />
 
         </div>
       </main>

@@ -21,8 +21,18 @@ export default function WorkItem({
         <div className="flex flex-col gap-2">
             <div className="font-bold">{workTitle}</div>
             <div className="flex flex-col pl-2 gap-4">
-                {workObject.map((wo: { title: string; description?: string[]; duration: string; link?: string; stack?: string[]; github?: string; live?: string; }, idx: Key | null | undefined) => (
-                    <Item key={idx} title={wo.title} description={wo.description} duration={wo.duration} link={wo.link} stack={wo.stack} github={wo.github} live={wo.live}/>
+                {workObject.map((wo, idx) => (
+                    <div key={idx}>
+                        <Item 
+                            title={wo.title} 
+                            description={wo.description} 
+                            duration={wo.duration} 
+                            stack={wo.stack} 
+                            github={wo.github}
+                            link={wo.link}
+                            live={wo.live}
+                        />
+                    </div>
                 ))}
             </div>
         </div>

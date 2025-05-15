@@ -3,8 +3,6 @@ title: "SSL/TLS: Workflow and Setting Up"
 date: "2025"
 ---
 
-# SSL/TLS Certificate Flow
-
 ## Certificate Authority: Let's Encrypt
 
 ## Certificate Generation

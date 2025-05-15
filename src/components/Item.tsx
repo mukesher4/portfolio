@@ -1,5 +1,5 @@
 import { JSX } from 'react';
-import { SiMongodb, SiNextdotjs, SiPostgresql, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
+import { SiExpress, SiMongodb, SiNextdotjs, SiPostgresql, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
 type TechIcon = {
@@ -12,50 +12,33 @@ export const techIcon = {
     'tailwindcss': <SiTailwindcss className="w-5 h-5" />,
     'typescript': <SiTypescript className="w-5 h-5" />,
     'mongodb': <SiMongodb className="w-5 h-5" />,
-    'react': <SiReact className="w-5 h-5" />
+    'react': <SiReact className="w-5 h-5" />,
+    'express': <SiExpress className="w-5 h-5" />
 } as TechIcon;
 
 export default function Item({
     title,
     duration,
     description,
-    link,
     stack,
     github,
+    link,
     live,
 }: {
     title: string;
     duration: string;
     description?: string[];
-    link?: string;
     stack?: string[];
     github?: string;
+    link?: string;
     live?: string;
 }) {
-    return (
+    const content = (
         <div className="border-2 border-transparent hover:border-neutral-600 hover:border-opacity-30 p-2">
             <div>
                 <div className="w-full flex justify-between items-start">
                     <div className='flex flex-row gap-4 items-center'>
-                        {link ? (
-                            <a 
-                                href={`/blogs/${link}`} 
-                                className="hover:text-neutral-400 cursor-pointer"
-                            >
-                                <u className="pb-1 underline-offset-4">{title}</u>
-                            </a>
-                        ) : live ? (
-                            <a 
-                                href={live} 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="hover:text-neutral-400 cursor-pointer"
-                            >
-                                <u className="pb-1 underline-offset-4">{title}</u>
-                            </a>
-                        ) : (
-                            <u className="pb-1 underline-offset-4">{title}</u>
-                        )}
+                        <u className="pb-1 underline-offset-4">{title}</u>
                         {stack && (
                             <div className="flex gap-2">
                                 {stack.map((tech, idx) => (
@@ -80,10 +63,18 @@ export default function Item({
                 </div>
                 <ul>
                     {description?.map((desc, idx) => (
-                        <li key={idx} className="text-neutral-400">{desc}</li>
+                        <li key={idx} className="text-neutral-400 mb-2">{desc}</li>
                     ))}
                 </ul>
             </div>
         </div>
-    )
+    );
+
+    if (link) {
+        return <a href={`/blogs/${link}`}>{content}</a>;
+    }
+    if (live) {
+        return <a href={live} target="_blank" rel="noopener noreferrer">{content}</a>;
+    }
+    return content;
 }

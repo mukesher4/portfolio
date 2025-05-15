@@ -3,8 +3,6 @@ title: "HTTP Protocol: Overview"
 date: "2025"
 ---
 
-# Set Cookie?
-
 ## Servers in Web Development
 
 - **Web Server**: Serves static assets (HTML, images, JS, CSS, etc).

@@ -3,8 +3,6 @@ title: "SSG-SSR-CSR-ISG: What even are these?"
 date: "2025-05-13"
 ---
 
-# Rendering Strategies in Next.js
-
 ## ✅ SSG (Static Site Generation)
 - HTML is pre-rendered at **build time**.
 - Served instantly from CDN/static server.
