@@ -5,9 +5,11 @@ import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 
 export const metadata: Metadata = {
-  title: "Home | @muk3.sh",
-  description: "Official Portfolio of @muk3.sh",
+  title: "Home | Mukesh R",
+  description: "Portfolio of Mukesh R",
 };
+
+<link rel="icon" href="/feathersMcgraw.png" sizes="any" />
 
 export default function RootLayout({
   children,

@@ -8,7 +8,7 @@ date: "2025"
 - **Web Server**: Serves static assets (HTML, images, JS, CSS, etc).
 - **Backend Server**: Handles client requests involving data (e.g., DB communication, API responses).
 
-> ⚠️ Note: This is a simplified distinction and not always strictly true, but helps in understanding HTTP.
+> Note: This is a simplified distinction and not always strictly true, but helps in understanding HTTP.
 
 - Both use **HTTP** for communication.
   - Web servers: serve documents, images, etc.
@@ -86,16 +86,3 @@ date: "2025"
 
 - **Stream Multiplexing**: Multiple requests/responses in parallel via stream IDs.
 - **Time Division Multiplexing**
-
----
-
-## QUIC vs TCP
-
-> Add notes here if needed.
-
----
-
-## HTTP Version Differences
-
-> Add breakdown table or summary of HTTP/1.1 vs HTTP/2 vs HTTP/3.
-

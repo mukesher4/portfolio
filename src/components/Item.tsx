@@ -49,7 +49,7 @@ export default function Item({
                                 href={github} 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
-                                className='cursor-pointer'
+                                className='cursor-pointer hover:text-neutral-400'
                             >
                                 <FaGithub className='w-5 h-5'/>
                             </a>
