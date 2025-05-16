@@ -48,7 +48,7 @@ export const education = [
       title: 'Amrita Vishwa Vidyapeetham, Coimbatore',
       duration: '2022 - Present (Expected: 2026)',
       description: [
-        'B.Tech in CSE (CYS)'
+        'B.Tech in CSE (CYS) — 8.64 CGPA'
       ]
     }
 ]
