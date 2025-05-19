@@ -1,6 +1,7 @@
 ---
 title: "SSG-SSR-CSR-ISG: What even are these?"
 date: "2025-05-13"
+description: ["Talks about some of the common frontend building methods — comparing setup and performance of each."]
 ---
 
 ## SSG (Static Site Generation)

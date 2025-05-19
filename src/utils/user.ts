@@ -6,6 +6,7 @@ export const X="https://x.com/TrueG78"
 export const EMAIL="mailto:mukeshramasubramanian@gmail.com"
 export const DISCORD=""
 export const LINKEDIN=""
+export const RESUME="https://drive.google.com/file/d/1iOxVyvkr_VolJsFAvxEyrEE6G6GqC38g/view?usp=drive_link"
 
 export const work = [
     {

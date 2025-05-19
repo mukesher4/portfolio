@@ -7,13 +7,13 @@ type TechIcon = {
 }
 
 export const techIcon = {
-    'nextjs': <SiNextdotjs className="w-5 h-5" />,
-    'postgresql': <SiPostgresql className="w-5 h-5" />,
-    'tailwindcss': <SiTailwindcss className="w-5 h-5" />,
-    'typescript': <SiTypescript className="w-5 h-5" />,
-    'mongodb': <SiMongodb className="w-5 h-5" />,
-    'react': <SiReact className="w-5 h-5" />,
-    'express': <SiExpress className="w-5 h-5" />
+    'nextjs': <SiNextdotjs className="w-4 h-4" />,
+    'postgresql': <SiPostgresql className="w-4 h-4" />,
+    'tailwindcss': <SiTailwindcss className="w-4 h-4" />,
+    'typescript': <SiTypescript className="w-4 h-4" />,
+    'mongodb': <SiMongodb className="w-4 h-4" />,
+    'react': <SiReact className="w-4 h-4" />,
+    'express': <SiExpress className="w-4 h-4" />
 } as TechIcon;
 
 export default function Item({
@@ -57,9 +57,9 @@ export default function Item({
                         <span className="text-sm">{duration}</span>
                     </div>
                 </div>
-                <ul>
+                <ul className="space-y-2 text-neutral-400">
                     {description?.map((desc, idx) => (
-                        <li key={idx} className="text-neutral-400 mb-2">{desc}</li>
+                        <li key={idx}>{desc}</li>
                     ))}
                 </ul>
             </div>

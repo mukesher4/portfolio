@@ -1,6 +1,7 @@
 ---
 title: "HTTP Protocol: Overview"
 date: "2025"
+description: []
 ---
 
 ## Servers in Web Development
