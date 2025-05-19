@@ -1,4 +1,4 @@
-export const NAME="Mukesh R"
+export const NAME="Mukesh R."
 export const LOCATION="Chennai, In"
 export const DESCRIPTION="Software Engineer with experience in Full Stack Development and setting up Infrastructure."
 export const GH="https://github.com/mukesher4/"

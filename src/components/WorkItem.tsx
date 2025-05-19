@@ -18,7 +18,7 @@ export default function WorkItem({
 ) {
     return (
         <div className="flex flex-col gap-2">
-            <div className="font-bold">{workTitle}</div>
+            <div className="font-bold">./{workTitle}</div>
             <div className="flex flex-col pl-2 gap-4">
                 {workObject.map((wo, idx) => (
                     <div key={idx}>

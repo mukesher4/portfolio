@@ -17,8 +17,7 @@ export default function ContactMe({
 }) {
     return (
         <>
-        <div className="font-bold pb-6">{'contact me'}</div>
-            <div className="pl-2 flex flex-row gap-4">
+            <div className="pl-2 flex flex-row gap-4 pt-2">
                 {x ? (
                     <a href={X}>
                         <FaXTwitter />
