@@ -1,6 +1,6 @@
 export const NAME="Mukesh R."
 export const LOCATION="Chennai, In"
-export const DESCRIPTION="Software Engineer with experience in Full Stack Development and setting up Infrastructure."
+export const DESCRIPTION="Software Engineer passionate about exploring new technologies, Full Stack Development and Infrastructure. Skilled in building secure, scalable systems and deploying dynamic environments."
 export const GH="https://github.com/mukesher4/"
 export const X="https://x.com/TrueG78"
 export const EMAIL="mailto:mukeshramasubramanian@gmail.com"
@@ -13,8 +13,8 @@ export const work = [
       title: 'SWE Intern | @infysec',
       duration: 'March, 2025 - Present',
       description: [
-        'Built a full-stack application — a VM-based \'Hack The Box\'-type learning platform with role-based access control for admins and users.',
-        'Implemented auto-deployment of containerized VMs for each lab session on instance start.'
+        'Built a full-stack, VM-based CTF learning platform with features like dynamic Docker container deployment per lab session, user performance tracking',
+        'Implemented role-based access control, OAuth login.'
       ],
       stack: ['nextjs', 'postgresql', 'express', 'tailwindcss']
     },
@@ -26,7 +26,7 @@ export const projects = [
       duration: '2025',
       description: [
         'End-to-End encrypted simple, no-auth temporary file sharing application',
-        'Encrypted files get stored in Azure Blob Storage'
+        'Files are securely stored as blobs in Azure Blob Storage with auto-expiry.'
       ],
       stack: ['nextjs', 'mongodb', 'express', 'tailwindcss'],
       github: 'https://github.com/mukesher4/drop-share',
@@ -36,7 +36,8 @@ export const projects = [
       title: 'ConIntact',
       duration: '2025',
       description: [
-        'Collaborative Contact Management Application built using MERN stack'
+        'Collaborative Contact Management Application built using MERN stack',
+        'Users can organize contacts into sharable groups for events or teams.'
       ],
       stack: ['react', 'mongodb', 'express', 'tailwindcss'],
       github: 'https://github.com/mukesher4/conintact-frontend',

@@ -32,7 +32,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #333;  /* darker thumb */
   border-radius: 4px;
-}
+  }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #444;  /* slightly lighter on hover */

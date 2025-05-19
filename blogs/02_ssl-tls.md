@@ -1,7 +1,7 @@
 ---
 title: "SSL/TLS: Workflow and Setting Up"
 date: "2025"
-description: []
+description: ['Guide to generating SSL certificates and handling HTTPS traffic.','Detailed explanation on ssl/tls workflow b/w server and clients.']
 ---
 
 ## Certificate Authority: Let's Encrypt

@@ -1,7 +1,7 @@
 ---
 title: "HTTP Protocol: Overview"
 date: "2025"
-description: []
+description: ['Beginner-friendly take on HTTP fundamentals, methods, status codes, and headers.']
 ---
 
 ## Servers in Web Development

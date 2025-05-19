@@ -28,18 +28,19 @@ export default async function Home() {
 
   return (
     <>
+      <div className="fixed inset-0 -z-10 pointer-events-none">
+        <div className="w-[1200px] h-[400px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute w-[500px] h-[160px] bg-gradient-to-br from-blue-500/15 via-indigo-500/10 to-transparent blur-3xl -rotate-12 translate-x-20" />
+          <div className="absolute w-[400px] h-[140px] bg-gradient-to-bl from-indigo-500/12 via-blue-500/8 to-transparent blur-3xl rotate-6 -translate-x-40 translate-y-10" />
+        </div>
+      </div>
+      
       <div className="flex flex-col justify-between gap-4">
         <div className="flex gap-2 items-center">
           <div className="rounded-full bg-green-500 w-2 h-2 shadow-[0_0_6px_2px_rgba(34,197,94,0.6)]"></div>
           <div className="text-[10px] text-neutral-500">Available for oppurtunities</div>
         </div>
         <div className="flex justify-between">
-          {/* <Image
-            src="/profile.png"
-            alt="profile picture"
-            width={100}
-            height={100}
-          /> */}
           <div className="flex flex-col gap-4">
             <div className="flex justify-between">
               <div className="flex flex-col">
