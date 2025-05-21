@@ -37,7 +37,7 @@ export default async function Home() {
       
       <div className="flex flex-col justify-between gap-4">
         <div className="flex gap-2 items-center">
-          <div className="rounded-full bg-green-500 w-2 h-2 shadow-[0_0_6px_2px_rgba(34,197,94,0.6)]"></div>
+          <div className="rounded-full bg-green-500 w-2 h-2 shadow-[0_0_6px_2px_rgba(34,197,94,0.6)] animate-pulse"></div>
           <div className="text-[10px] text-neutral-500">Available for oppurtunities</div>
         </div>
         <div className="flex justify-between">
