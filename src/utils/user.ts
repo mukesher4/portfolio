@@ -6,7 +6,7 @@ export const X="https://x.com/TrueG78"
 export const EMAIL="mailto:mukeshramasubramanian@gmail.com"
 export const DISCORD=""
 export const LINKEDIN=""
-export const RESUME="https://drive.google.com/file/d/1iOxVyvkr_VolJsFAvxEyrEE6G6GqC38g/view?usp=drive_link"
+export const RESUME="https://drive.google.com/file/d/1SEudLhM64ALCf5p3pkBG5GXLOlJMZcJg/view?usp=sharing"
 
 export const work = [
     {
@@ -16,7 +16,8 @@ export const work = [
         'Built a full-stack, VM-based CTF learning platform with features like dynamic Docker container deployment per lab session, user performance tracking',
         'Implemented role-based access control, OAuth login.'
       ],
-      stack: ['nextjs', 'postgresql', 'express', 'tailwindcss']
+      stack: ['nextjs', 'postgresql', 'express', 'tailwindcss'],
+      live: 'https://drive.google.com/file/d/1Iv_oS_Zc7enetdwR030Ef6S-HK0R28Bq/view?usp=sharing'
     },
 ]
 
