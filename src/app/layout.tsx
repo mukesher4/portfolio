@@ -3,7 +3,7 @@ import "./globals.css";
 
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
   title: "Home | Mukesh R",
   description: "Portfolio of Mukesh R",
