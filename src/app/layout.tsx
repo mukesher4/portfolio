@@ -3,7 +3,7 @@ import "./globals.css";
 
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
-
+import { Analytics } from "@vercel/analytics/react";
 export const metadata: Metadata = {
   title: "Home | Mukesh R",
   description: "Portfolio of Mukesh R",
@@ -23,6 +23,7 @@ export default function RootLayout({
       >
         <div className="flex flex-col max-w-3xl mx-auto px-4 py-12 gap-8">
           {children}
+          <Analytics />
         </div>
       </body>
     </html>
