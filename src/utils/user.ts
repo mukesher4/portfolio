@@ -6,7 +6,7 @@ export const X="https://x.com/TrueG78"
 export const EMAIL="mailto:mukeshramasubramanian@gmail.com"
 export const DISCORD=""
 export const LINKEDIN=""
-export const RESUME="https://drive.google.com/file/d/1SEudLhM64ALCf5p3pkBG5GXLOlJMZcJg/view?usp=sharing"
+export const RESUME="https://drive.google.com/file/d/1dgKSA0xBnRFANamH5oJjLalFe3dRmLVz/view"
 
 export const work = [
     {
@@ -22,6 +22,16 @@ export const work = [
 ]
 
 export const projects = [
+    {
+      title: 'Doit',
+      duration: '2025',
+      description: [
+        'Public Accountability platform for users to achieve their goals and track progress efficiently.',
+      ],
+      github: 'https://github.com/mukesher4/doit',
+      building: true,
+      live: 'https://doit-hazel.vercel.app/'
+    },
     {
       title: 'DropShare',
       duration: '2025',

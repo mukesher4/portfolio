@@ -22,12 +22,14 @@ export default function Item({
     description,
     stack,
     github,
+    building,
 }: {
     title: string;
     duration: string;
     description?: string[];
     stack?: string[];
     github?: string;
+    building?: boolean;
 }) {
     return (
         <div className="border-2 border-transparent hover:border-neutral-600 hover:border-opacity-30 p-2">
@@ -40,6 +42,11 @@ export default function Item({
                                 {stack.map((tech, idx) => (
                                     <div key={idx}>{techIcon[tech]}</div>
                                 ))}
+                            </div>
+                        )}
+                        {building && (
+                            <div className="flex items-center justify-center">
+                                <div className="text-sm text-neutral-400">{'[Building]'}</div>
                             </div>
                         )}
                     </div>
