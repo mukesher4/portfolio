@@ -20,6 +20,10 @@ body {
   font-family: 'Geist Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
 }
 
+:root {
+  font-size: 125%;
+}
+
 /* For Webkit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 8px;
