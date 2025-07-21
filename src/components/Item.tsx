@@ -1,6 +1,7 @@
 import { JSX } from 'react';
-import { SiExpress, SiMongodb, SiNextdotjs, SiPostgresql, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
+import { SiExpress, SiMongodb, SiNextdotjs, SiPostgresql, SiReact, SiTailwindcss, SiTypescript, SiEthereum } from 'react-icons/si'
 import { FaGithub } from 'react-icons/fa'
+import ReactMarkdown from 'react-markdown';
 
 type TechIcon = {
     [key: string]: JSX.Element
@@ -13,7 +14,8 @@ export const techIcon = {
     'typescript': <SiTypescript className="w-4 h-4" />,
     'mongodb': <SiMongodb className="w-4 h-4" />,
     'react': <SiReact className="w-4 h-4" />,
-    'express': <SiExpress className="w-4 h-4" />
+    'express': <SiExpress className="w-4 h-4" />,
+    'solidity': <SiEthereum className="w-4 h-4" />
 } as TechIcon;
 
 export default function Item({
@@ -46,7 +48,7 @@ export default function Item({
                         )}
                         {building && (
                             <div className="flex items-center justify-center">
-                                <div className="text-sm text-neutral-400">{'[Building]'}</div>
+                                <div className="text-[12px] text-neutral-400 italic">{'[Building]'}</div>
                             </div>
                         )}
                     </div>
@@ -61,12 +63,15 @@ export default function Item({
                                 <FaGithub className='w-5 h-5'/>
                             </a>
                         }
-                        <span className="text-sm">{duration}</span>
+                        <span className="text-xs">{duration}</span>
                     </div>
                 </div>
-                <ul className="space-y-2 text-neutral-400">
+                <ul className="pl-4 space-y-2 text-neutral-400 text-sm">
                     {description?.map((desc, idx) => (
-                        <li key={idx}>{desc}</li>
+                        <div key={idx} className='flex flex-row gap-1'>
+                            <div className='text-neutral-600'>{'-'}</div>
+                            <li><ReactMarkdown>{desc}</ReactMarkdown></li>
+                        </div>
                     ))}
                 </ul>
             </div>

@@ -37,13 +37,15 @@ export default async function Blog({ params, searchParams }: Props) {
           <div className="absolute w-[400px] h-[140px] bg-gradient-to-bl from-indigo-500/12 via-blue-500/8 to-transparent blur-3xl rotate-6 -translate-x-40 translate-y-10" />
         </div>
       </div>
+
       <Link 
         href="/"
-        className="inline-flex items-center gap-2 text-neutral-400 hover:text-neutral-200 transition-colors mb-6 group"
+        className="inline-flex items-center gap-2 text-neutral-400 hover:text-neutral-200 transition-colors group"
       >
-        <FaArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-        <span>Back to Portfolio</span>
+        <FaArrowLeft className="w-3 h-3 group-hover:-translate-x-1 transition-transform" />
+        <span className="group-hover:text-neutral-200 transition-colors text-xs">Back to Portfolio</span>
       </Link>
+      
       <div>
         <div className="mb-8">
           <h1 className="text-2xl font-bold mb-2">{post.title}</h1>

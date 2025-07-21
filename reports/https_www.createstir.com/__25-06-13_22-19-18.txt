@@ -1,0 +1,82 @@
+# Dirsearch started Fri Jun 13 23:02:19 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u https://www.createstir.com/
+
+404    19KB  https://www.createstir.com/404
+200    51KB  https://www.createstir.com/about
+200    28KB  https://www.createstir.com/admin
+301   178B   https://www.createstir.com/api    -> REDIRECTS TO: https://www.createstir.com/api/
+200    30B   https://www.createstir.com/api/
+404   161B   https://www.createstir.com/api/2/issue/createmeta
+404   153B   https://www.createstir.com/api/2/explore/
+404   155B   https://www.createstir.com/api/__swagger__/
+404   146B   https://www.createstir.com/api/api
+404   151B   https://www.createstir.com/api/api-docs
+404   153B   https://www.createstir.com/api/_swagger_/
+404   150B   https://www.createstir.com/api/apidocs
+404   148B   https://www.createstir.com/api/batch
+404   159B   https://www.createstir.com/api/application.wadl
+404   148B   https://www.createstir.com/api/docs/
+404   147B   https://www.createstir.com/api/docs
+404   163B   https://www.createstir.com/api/apidocs/swagger.json
+404   152B   https://www.createstir.com/api/error_log
+404   149B   https://www.createstir.com/api/jsonws
+404   156B   https://www.createstir.com/api/jsonws/invoke
+404   155B   https://www.createstir.com/api/cask/graphql
+404   149B   https://www.createstir.com/api/config
+404   153B   https://www.createstir.com/api/login.json
+404   174B   https://www.createstir.com/api/package_search/v4/documentation
+404   148B   https://www.createstir.com/api/proxy
+404   150B   https://www.createstir.com/api/profile
+404   153B   https://www.createstir.com/api/index.html
+404   152B   https://www.createstir.com/api/snapshots
+404   145B   https://www.createstir.com/api/v3
+404   160B   https://www.createstir.com/api/spec/swagger.json
+404   158B   https://www.createstir.com/api/swagger/swagger
+404   154B   https://www.createstir.com/api/swagger.yml
+404   155B   https://www.createstir.com/api/swagger.yaml
+404   163B   https://www.createstir.com/api/v2/helpdesk/discover
+404   146B   https://www.createstir.com/api/v1/
+404   155B   https://www.createstir.com/api/swagger.json
+404   158B   https://www.createstir.com/api/v2/swagger.yaml
+404   150B   https://www.createstir.com/api/version
+404   158B   https://www.createstir.com/api/v1/swagger.json
+404   145B   https://www.createstir.com/api/v2
+404   145B   https://www.createstir.com/api/v1
+404   145B   https://www.createstir.com/api/v4
+404   158B   https://www.createstir.com/api/v1/swagger.yaml
+404   146B   https://www.createstir.com/api/v2/
+404   161B   https://www.createstir.com/api/swagger/index.html
+404   159B   https://www.createstir.com/api/swagger/ui/index
+404   149B   https://www.createstir.com/api/whoami
+404   168B   https://www.createstir.com/api/swagger/static/index.html
+404   158B   https://www.createstir.com/api/swagger-ui.html
+404   155B   https://www.createstir.com/api/timelion/run
+404   173B   https://www.createstir.com/api/vendor/phpunit/phpunit/phpunit
+404   158B   https://www.createstir.com/api/v2/swagger.json
+404   150B   https://www.createstir.com/api/swagger
+308    19B   https://www.createstir.com/axis//happyaxis.jsp    -> REDIRECTS TO: /axis/happyaxis.jsp
+308    30B   https://www.createstir.com/axis2//axis2-web/HappyAxis.jsp    -> REDIRECTS TO: /axis2/axis2-web/HappyAxis.jsp
+308    24B   https://www.createstir.com/axis2-web//HappyAxis.jsp    -> REDIRECTS TO: /axis2-web/HappyAxis.jsp
+301   178B   https://www.createstir.com/chat    -> REDIRECTS TO: https://www.createstir.com/chat/
+308    52B   https://www.createstir.com/Citrix//AccessPlatform/auth/clientscripts/cookies.js    -> REDIRECTS TO: /Citrix/AccessPlatform/auth/clientscripts/cookies.js
+200    28KB  https://www.createstir.com/client
+200    35KB  https://www.createstir.com/contact
+308    39B   https://www.createstir.com/engine/classes/swfupload//swfupload.swf    -> REDIRECTS TO: /engine/classes/swfupload/swfupload.swf
+308    42B   https://www.createstir.com/engine/classes/swfupload//swfupload_f9.swf    -> REDIRECTS TO: /engine/classes/swfupload/swfupload_f9.swf
+308    27B   https://www.createstir.com/extjs/resources//charts.swf    -> REDIRECTS TO: /extjs/resources/charts.swf
+200    15KB  https://www.createstir.com/favicon.ico
+301   178B   https://www.createstir.com/graphql    -> REDIRECTS TO: https://www.createstir.com/graphql/
+200     3KB  https://www.createstir.com/graphql/console/
+302     0B   https://www.createstir.com/graphql/    -> REDIRECTS TO: console
+200     3KB  https://www.createstir.com/graphql/console
+404    65B   https://www.createstir.com/graphql/graphql
+404    65B   https://www.createstir.com/graphql/schema.json
+404    65B   https://www.createstir.com/graphql/schema.xml
+404    65B   https://www.createstir.com/graphql/schema.yaml
+308    37B   https://www.createstir.com/html/js/misc/swfupload//swfupload.swf    -> REDIRECTS TO: /html/js/misc/swfupload/swfupload.swf
+200    23KB  https://www.createstir.com/login
+200   140B   https://www.createstir.com/robots.txt
+200    30KB  https://www.createstir.com/search
+200    20KB  https://www.createstir.com/start
+200    17KB  https://www.createstir.com/test
+200    20KB  https://www.createstir.com/testimonials
+200    17KB  https://www.createstir.com/version

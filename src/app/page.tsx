@@ -1,7 +1,9 @@
+// "use client"
 import WorkItem from "@/components/WorkItem";
 import { getAllPostSlugs, getPostData } from '@/utils/posts';
 import ContactMe from "@/components/ContactMe";
 import { work, projects, education, NAME, LOCATION, DESCRIPTION } from '@/utils/user';
+import ReactMarkdown from 'react-markdown';
 
 type Post = {
   description: string[];
@@ -27,7 +29,8 @@ export default async function Home() {
   })
 
   return (
-    <>
+    <div
+    >
       <div className="fixed inset-0 -z-10 pointer-events-none">
         <div className="w-[1200px] h-[400px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <div className="absolute w-[500px] h-[160px] bg-gradient-to-br from-blue-500/15 via-indigo-500/10 to-transparent blur-3xl -rotate-12 translate-x-20" />
@@ -51,8 +54,8 @@ export default async function Home() {
               <ContactMe x={true} github={true} email={true} resume={true}/>
               </div>
             </div>
-            <div className="text-neutral-400">
-              {DESCRIPTION}
+            <div className="text-neutral-400 text-sm">
+              <ReactMarkdown>{DESCRIPTION}</ReactMarkdown>
             </div>
           </div>
         </div>
@@ -61,20 +64,19 @@ export default async function Home() {
       </div>
 
       <main>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 mt-8">
           <WorkItem workTitle="work" workObject={work} />
 
           <WorkItem workTitle="project" workObject={projects} />
 
-          <WorkItem workTitle="blogs" workObject={blogs} />
+          <WorkItem workTitle="blog" workObject={blogs} />
 
           <WorkItem workTitle="education" workObject={education} />
 
         </div>
       </main>
       <footer>
-        
       </footer>
-    </>
+    </div>
   );
 }
