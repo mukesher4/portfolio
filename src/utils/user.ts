@@ -22,17 +22,17 @@ export const work = [
 ]
 
 export const projects = [
-    {
-      title: 'Pledg',
-      duration: '2025',
-      description: [
-        '**Crypto-as-a-collateral** INR **loan** lending **p2p platform** built on **ethereum chain**.',
-        '**Smart contract** for locking collateral and transparent transaction history.'
-      ],
-      stack: ['nextjs', 'tailwindcss', 'express', 'solidity'],
-      building: true,
-      live: 'https://pledg-landing-page.vercel.app/'
-    },
+    // {
+    //   title: 'Pledg',
+    //   duration: '2025',
+    //   description: [
+    //     '**Crypto-as-a-collateral** INR **loan** lending **p2p platform** built on **ethereum chain**.',
+    //     '**Smart contract** for locking collateral and transparent transaction history.'
+    //   ],
+    //   stack: ['nextjs', 'tailwindcss', 'express', 'solidity'],
+    //   building: true,
+    //   live: 'https://pledg-landing-page.vercel.app/'
+    // },
     {
       title: 'Doit',
       duration: '2025',
