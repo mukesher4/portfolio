@@ -1,5 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# videos
+/public/demo.mkv
+/public/girl-smoking-cigarette-cigarette.mp4
+/public/khatija.mp4
+/public/lockin.jpg
+/public/sydney.mp4
+
 # dependencies
 /node_modules
 /.pnp

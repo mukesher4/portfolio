@@ -14,6 +14,7 @@ export default function WorkItem({
         github?: string;
         live?: string;
         building?: boolean;
+        video?: string;
     }[]
     }
 ) {
@@ -33,26 +34,30 @@ export default function WorkItem({
                                     github={wo.github}
                                 />
                             </a>
-                        ) : wo.live ? (
-                            <a href={wo.live} target="_blank" rel="noopener noreferrer">
+                        ) : (
+                        // ) : wo.live ? (
+                            // <a href={wo.live} target="_blank" rel="noopener noreferrer">
                                 <Item 
                                     title={wo.title} 
                                     description={wo.description} 
                                     duration={wo.duration} 
                                     stack={wo.stack} 
                                     github={wo.github}
+                                    live={wo.live}
                                     building={wo.building}
+                                    video={wo.video}
                                 />
-                            </a>
-                        ) : (
-                            <Item 
-                                title={wo.title} 
-                                description={wo.description} 
-                                duration={wo.duration} 
-                                stack={wo.stack} 
-                                github={wo.github}
-                                building={wo.building}
-                            />
+                            // </a>
+                        // ) : (
+                            // <Item 
+                            //     title={wo.title} 
+                            //     description={wo.description} 
+                            //     duration={wo.duration} 
+                            //     stack={wo.stack} 
+                            //     github={wo.github}
+                            //     building={wo.building}
+                                // video={wo.video}
+                            // />
                         )}
                     </div>
                 ))}

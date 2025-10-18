@@ -22,7 +22,7 @@ export default function RootLayout({
       <body
         className={`${GeistSans.variable} ${GeistMono.variable} antialiased min-h-screen`}
       >
-        <div className="flex flex-col max-w-3xl mx-auto px-4 py-12 gap-8">
+        <div className="flex flex-col max-w-4xl mx-auto px-4 py-12 gap-8">
           {children}
           <Analytics />
         </div>
