@@ -1,5 +1,4 @@
 import { SiExpress, SiMongodb, SiNextdotjs, SiPostgresql, SiReact, SiTailwindcss, SiTypescript, SiEthereum, SiPython, SiDocker } from 'react-icons/si'
-import { FaGithub, FaLink } from 'react-icons/fa'
 import { JSX } from 'react';
 
 type TechIcon = {
