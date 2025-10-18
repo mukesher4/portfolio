@@ -1,11 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# videos
-/public/demo.mkv
-/public/girl-smoking-cigarette-cigarette.mp4
-/public/khatija.mp4
-/public/lockin.jpg
-/public/sydney.mp4
 
 # dependencies
 /node_modules
@@ -46,3 +40,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# media files (uncomment specific ones you want to track)
+# /public/*.mp4
+# /public/*.jpg
+# /public/*.png
+# /public/*.gif
